@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import './index.css';
+import './about.css';
 
 const title = (
-  <div className="topBanner">What We Do</div>
+  <h1 className="topBanner">What We Do</h1>
 );
 
 function Panel(props) {
@@ -19,10 +19,9 @@ class About extends React.Component {
       <div>
         {title}
         <ul className="bullets">
-          <li></li>
-          {/* <Panel header="Bullet One" body="info"/>          
+          <Panel header="Bullet One" body="info"/>          
           <Panel header="Bullet Two" body="info"/>
-          <Panel header="Bullet Three" body="words words words words words words words words words words words words words words words words words"/> */}
+          <Panel header="Bullet Three" body="words words words words words words words words words words words words words words words words words"/>
         </ul>
       </div>
     );
